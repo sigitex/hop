@@ -1,6 +1,6 @@
 # @sigitex/hop
 
-Tiny typed operations over HTTP, using `@sigitex/route` and Arktype.
+Tiny typed operations over HTTP, using `@sigitex/route` and Arktype. Stop-gap until more impressive library is finished.
 
 ## API
 

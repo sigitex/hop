@@ -1,7 +1,6 @@
 {
   "name": "@sigitex/hop",
   "version": "0.0.0",
-  "private": true,
   "description": "Tiny typed operations over HTTP.",
   "author": {
     "name": "Sigitex",
