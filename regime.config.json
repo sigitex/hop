@@ -1,0 +1,20 @@
+{
+  "sources": {
+    "sigitex": "../templates"
+  },
+  "templates": [
+    "sigitex:project/workspace",
+    "sigitex:project/library",
+    "sigitex:workflow/mirror",
+    "sigitex:workflow/publish-npm",
+    "sigitex:tool/oxc",
+    "sigitex:tool/commitlint",
+    "sigitex:tool/husky",
+    "sigitex:license/mit"
+  ],
+  "vars": {
+    "repo": "hop",
+    "license": "MIT",
+    "copyright": "Sigitex"
+  }
+}

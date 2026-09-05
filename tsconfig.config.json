@@ -7,13 +7,8 @@
     ]
   },
   "include": [
-    "tests",
-    "src/Env.d.ts"
-  ],
-  "references": [
-    {
-      "path": "./tsconfig.src.json"
-    }
+    "*.config.ts",
+    "*.config.cjs"
   ],
   "files": []
 }

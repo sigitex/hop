@@ -5,6 +5,26 @@ export default defineConfig({
   tabWidth: 2,
   printWidth: 80,
   singleQuote: false,
+  jsxSingleQuote: false,
+  quoteProps: "as-needed",
   trailingComma: "all",
   semi: false,
+  arrowParens: "always",
+  bracketSameLine: false,
+  bracketSpacing: true,
+  ignorePatterns: ["**/*.gen.ts"],
+  overrides: [
+    {
+      files: ["**/ui/**/*.ts"],
+      options: {
+        printWidth: 60,
+      },
+    },
+    {
+      files: ["**/*.tsx"],
+      options: {
+        printWidth: 70,
+      },
+    },
+  ],
 })
