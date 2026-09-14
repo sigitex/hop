@@ -46,6 +46,7 @@ export default defineConfig({
     "no-undefined": "off",
     "no-underscore-dangle": "off",
     "no-use-before-define": "off",
+    "one-var": "off",
     "unicorn/numeric-separators-style": "off",
     "prefer-destructuring": "off",
     "prefer-for-of": "off",
